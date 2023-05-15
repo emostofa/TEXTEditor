@@ -12,14 +12,14 @@ function App() {
   const darkToggle = () =>{
       if(mode === 'dark') setMode('light');
       else setMode('dark');
-      console.log(mode)
+     
   }
 
 
   return (
         <>
 
-        <Navbar title="Fanstorm" about ="About"  dropdown = "Services" home = "Home" dropdown1 = "Pricing"
+        <Navbar title="TEXTEditor-make uppercase | count words and more!" about ="About"  dropdown = "Services" home = "Home" dropdown1 = "Pricing"
         dropdown2 = "Subscriptions" help ="Help" mode={mode} darkToggle={darkToggle}/>
         <TextForm button="Convert to Uppercase" mode={mode} />
 
