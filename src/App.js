@@ -19,7 +19,7 @@ function App() {
   return (
         <>
 
-        <Navbar title="TEXTEditor-make uppercase | count words and more!" about ="About"  dropdown = "Services" home = "Home" dropdown1 = "Pricing"
+        <Navbar title="TextUtilizer-make uppercase | count words and more!" about ="About"  dropdown = "Services" home = "Home" dropdown1 = "Pricing"
         dropdown2 = "Subscriptions" help ="Help" mode={mode} darkToggle={darkToggle}/>
         <TextForm button="Convert to Uppercase" mode={mode} />
 
